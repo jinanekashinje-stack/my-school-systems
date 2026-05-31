@@ -1,9 +1,162 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>School System</title>
-</head>
-<body>
-<h1>Welcome To My School</h1>
-<p>Website is progressing.</p>
-</body>
+    <head>
+        <title>jinane web site </title>
+        <style>
+
+            body {
+                font-family: Arial;
+                background-color: orangered;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: black;
+                color: orangered;
+                text-align: center;
+                padding: 15px;
+             }
+
+             nav {
+                background-color: green;
+                padding: 20px;
+                text-align: center;
+             }
+
+             nav a {
+                color: white;
+                text-decoration: none;
+                margin: 20px;
+                font-size: 20px;
+             }
+
+             .container {
+                width: 90%;
+                margin: auto; 
+                margin-top: 20px;  
+             }
+
+             .card {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 20px;
+             }
+
+
+             h2 {
+                color: darkblue;
+             }
+
+
+             table {
+                width: 100%;
+                border-collapse:collapse ;
+             }
+
+
+             table, th, td {
+                border: 1px solid green;
+             }
+
+
+             th {
+                background-color: orangered;
+                color: green;
+             }
+
+
+             th, td {
+                padding: 18px;
+                text-align: center;
+             }
+
+
+             input, select {
+                width: 100%;
+                padding: 20px;
+                margin-top: 5px;
+                margin-bottom: 20px;
+             }
+
+
+             button {
+                background-color: blue;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+             }
+
+
+             button:hover {
+                background-color: blue;
+             }
+
+
+             footer {
+                background-color: aqua;
+                color: black;
+                text-align: center;
+                padding: 15px;
+                margin-top: 20px;
+             }
+
+        </style>        
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Hospital management system</h1>
+            <p>Manage patients, Doctors and appointments</p>
+        </header>
+
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Patients</a>
+            <a href="#">Doctors</a>
+            <a href="#">Appointment</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="container">
+            <!--Patient registration form-->
+            <div class="card">
+
+                <h2>Patient Registration</h2>
+
+                <form>
+
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter Patient Name">
+                    <label>proffesional doctors</label>
+
+                    <select>
+                        <option>Dr. Jinane</option>
+                        <option>Dr. Kashinje</option>
+                        <option>Dr. Kabula</option>
+                        <option>Dr. shangazi</option>
+                        <option>Dr. Babu Alphonce</option>
+                        <option>Dr. Bundala</option>
+                    </select>
+
+                    <label>Appointment Date</label>
+                    <input type="date">
+
+                    <button type="submit">Book Appointment</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>@2026 Hospital Management System</p>
+        </footer>
+    </body>
 </html>
